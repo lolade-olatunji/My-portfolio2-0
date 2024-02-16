@@ -1,0 +1,46 @@
+.mid-section{
+    padding: 2rem 4rem;
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mid-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.mid-each-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem 1rem;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 6px 14.4px 2px rgba(0, 0, 0, 0.1);
+}
+.mine{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.mid-inner{
+    padding: 0rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 1px;
+}
+.mid-inner h4{
+    font-family: "Kantumruy Pro", sans-serif;
+    color: #687073;
+}
+.mid-inner p{
+    font-family: "Kantumruy Pro", sans-serif;
+    color: #687073;
+    font-size: 15px;
+}

@@ -1,0 +1,43 @@
+.service-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 4rem 4rem 10rem;
+}
+.service-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.service-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 5rem;
+}
+.service-content h1{
+    font-size: 45px;
+    font-family: "Days One";
+    color: rgba(30, 30, 30, 0.72);
+}
+.service-content h3{
+    font-family: "Cousine";
+    color: #819399;
+    font-size: 36px;
+    font-weight: 600;
+}
+.service-content p{
+    font-size: 25px;
+    font-weight: 400;
+    width: 70%;
+    font-family: "Darker Grotesque", sans-serif;
+    color: #687073;
+    margin-top: -10px;
+    margin-bottom: 4rem;
+}
+.serv-right{
+    margin-right: 6rem;
+}

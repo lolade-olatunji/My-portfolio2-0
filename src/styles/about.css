@@ -1,0 +1,48 @@
+.about-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8rem 0rem 4rem 5rem;
+}
+.about-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.about-about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 4rem;
+}
+.about-about h1{
+    font-size: 45px;
+    font-family: "Days One";
+    color: rgba(30, 30, 30, 0.72);
+}
+.about-about p{
+    font-size: 25px;
+    width: 80%;
+    font-family: "Darker Grotesque", sans-serif;
+    color: #000000;
+}
+.about-pic{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15rem;
+    margin-right: 10rem;
+}
+.about-but{
+    border: 1px solid #687073;
+    padding: 1rem 5rem;
+    background-color: #687073;
+    color: #FFFFFF;
+    font-size: 15px;
+    margin-top: 1.5rem;
+}

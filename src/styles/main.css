@@ -1,0 +1,104 @@
+.main-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 4rem;
+    padding-top: 0.5rem;
+}
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 10rem;
+    padding-left: 5rem;
+}
+.right{
+    top: 0;
+    width: 60%;
+}
+.right img{
+    width: 100%;
+     z-index: 0;
+}
+.left h1{
+    position: relative;
+    z-index: 1;
+    font-size: 45px;
+    font-family: "Days One";
+    color: rgba(30, 30, 30, 0.72);
+}
+.left h3{
+    font-family: "Cousine";
+    color: #819399;
+    font-size: 36px;
+    font-weight: 600;
+}
+.main-desc{
+   font-family: "Content", system-ui;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 20px;
+   line-height: 30px;
+   width: 60%;
+   font-weight: 600;
+   color: rgba(0, 0, 0, 0.70);
+   margin-top: -10px;
+}
+.main-add{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.main-email{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 5rem;
+}
+.main-email h4{
+    font-size: 15px;
+    margin-bottom: -2px;
+    color: #687073;
+}
+.main-email p a{
+    font-size: 16px;
+    color:#14BFFF;
+}
+.main-dribble{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 5rem;
+}
+.main-dribble h4{
+    font-size: 15px;
+    margin-bottom: -2px;
+    color: #687073;
+}
+.main-dribble p a{
+    font-size: 16px;
+    color:#14BFFF;
+}
+.main-but{
+    box-sizing: border-box;
+    padding: 1rem 5rem;
+    background-color: #687073;
+    border-radius: 3px;
+    font-family:"Karma";
+    color: white;
+    font-size: 20px;
+    border: 0px solid #687073;
+    box-shadow: 0 2px 15.6px 0 rgba(0, 0, 0, 0.10);
+}
