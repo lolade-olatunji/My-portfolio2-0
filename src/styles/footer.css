@@ -1,0 +1,20 @@
+.foot{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 0rem;
+}
+.line {
+    display: block;
+    border-top: 1px solid #ACB8BC;
+    margin: 20px 0px;
+}
+.foot h4{
+    font-family: "Darker Grotesque";
+    font-size: 20px;
+    color: #ACB8BC;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

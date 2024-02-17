@@ -40,6 +40,26 @@ a{
     text-decoration: none;
      color: #5C656A;
 }
+.nav-nav ul li a{
+  position: relative;
+}
+.nav-nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #5C656A;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+.nav-nav ul li a:hover{
+    color: #5C656A;
+}
+
+.nav-nav ul li a:hover::after{
+     width: 100%;
+}
 .nav-icons-and-but{
     display: flex;
     flex-direction: row;
@@ -55,6 +75,10 @@ a{
     margin-right: 2rem;
     font-size: 20px;
 }
+.na-icon:hover{
+   color:#14BFFF;
+   transform: translateY(-5px);
+}
 .nav-button{
     display: flex;
     flex-direction: row;
@@ -63,11 +87,15 @@ a{
 }
 .nav-but{
     box-sizing: border-box;
-    padding: 1rem 2rem;
+    padding: 0.7rem 2rem;
     background-color: #687073;
     border-radius: 3px;
-    font-family:"karma";
+     font-family: "Darker Grotesque";
+     font-size: 17px;
     color: white;
     border: 0px solid #687073;
     box-shadow: 0 2px 15.6px 0 rgba(0, 0, 0, 0.25);
+}
+.nav-but:hover{
+    cursor: pointer;
 }

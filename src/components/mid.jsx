@@ -30,9 +30,9 @@ function Mid() {
                     {data.description}
                   </p>
                 </div>
-                <div className="mid-right">
+                <a href="#section-four" className="mid-right">
                   <img src={data.img2} alt={data.title} />
-                </div>
+                </a>
               </div>
             </div>
           </div>

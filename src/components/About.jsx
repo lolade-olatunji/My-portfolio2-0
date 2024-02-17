@@ -32,7 +32,9 @@ function About() {
             way. Let's turn your vision into reality and create unforgettable
             experiences together.
           </p>
-          <button className="about-but">Learn More</button>
+          <a href="#section-seven">
+            <button className="about-but">Learn More</button>
+          </a>
         </div>
       </div>
     </div>;

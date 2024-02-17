@@ -28,7 +28,9 @@ function main() {
               </p>
             </div>
           </div>
-          <button className="main-but">Contact Us</button>
+          <a href="#section-eight">
+            <button className="main-but">Contact Us</button>
+          </a>
         </div>
         <div className="right">
           <img src="/plugs/image-one.png" />

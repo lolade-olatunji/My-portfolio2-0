@@ -96,9 +96,12 @@
     padding: 1rem 5rem;
     background-color: #687073;
     border-radius: 3px;
-    font-family:"Karma";
+    font-family: "Darker Grotesque";
     color: white;
-    font-size: 20px;
+    font-size: 22px;
     border: 0px solid #687073;
     box-shadow: 0 2px 15.6px 0 rgba(0, 0, 0, 0.10);
+}
+.main-but:hover{
+    cursor: pointer;
 }

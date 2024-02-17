@@ -1,0 +1,80 @@
+.mini{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 2rem 0rem 2rem;
+}
+.pro-pro{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.pro-card{
+     position: relative;
+     overflow: hidden;
+     padding: 0rem 4rem;
+}
+.card-pro{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   padding: 0rem 0rem;
+   width: 100%;
+}
+.pro-slide{
+    display: block;
+    transition: transform 0.5s;
+    width: 100%;
+    border-radius: 1rem;
+}
+.pro-inner{
+    padding: 0rem 4rem;
+}
+.pro-overlay{
+    height: 0%;
+    width: 86%;
+    margin-left: 2.5rem;
+    background: linear-gradient(142deg, rgba(142, 155, 159, 0.79), rgba(0, 0, 0, 0.79));
+    border-radius: 0rem;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    transition: height 0.5s;
+}
+
+.pro-overlay h4{
+    color: white;
+    font-family: "Cousine";
+    font-size: 25px;
+}
+.pro-overlay p{
+    color: white;
+    font-family: "Cousine";
+    font-size: 15px;
+}
+.pro-button{
+    padding: 1rem 4rem;
+    color: #5C6568;
+    background-color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 2rem;
+    border-radius: 6px;
+    font-family: "Cousine";
+    cursor: pointer;
+}
+.pro-card:hover .pro-slide{
+     transform:scale(1.1);
+}
+.pro-card:hover .pro-overlay{
+    height: 100%;
+}

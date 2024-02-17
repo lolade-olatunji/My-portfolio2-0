@@ -9,7 +9,7 @@ function Nav() {
   return <div className="nav-background">
       <div className="nav-section">
         <div className="img">
-          <img src="/plugs/logo-im (1).png" alt="LOGO"/>
+          <img src="/plugs/logo-im (1).png" alt="LOGO" />
         </div>
         <div className="nav-nav">
           <ul>
@@ -17,16 +17,16 @@ function Nav() {
               <a href="/">HOME</a>
             </li>
             <li>
-              <a href="/">ABOUT</a>
+              <a href="#section-three">ABOUT</a>
             </li>
             <li>
-              <a href="/">SERVICES</a>
+              <a href="#section-four">SERVICES</a>
             </li>
             <li>
-              <a href="/">PROJECTS</a>
+              <a href="#section-five">PROJECTS</a>
             </li>
             <li>
-              <a href="/">PORTFOLIO</a>
+              <a href="#section-eight">CONTACT-US</a>
             </li>
           </ul>
         </div>
@@ -35,29 +35,29 @@ function Nav() {
             <ul>
               <li>
                 <a href="https://www.linkedin.com/in/lolade-olatunji-b0285a251/">
-                  <FiLinkedin />
+                  <FiLinkedin className="na-icon"/>
                 </a>
               </li>
               <li>
                 <a href="https://twitter.com/OloladeOla91135">
-                  <FiTwitter />
+                  <FiTwitter className="na-icon"/>
                 </a>
               </li>
               <li>
                 <a href="https://www.instagram.com/octavia_eric89/">
-                  <FiInstagram />
+                  <FiInstagram className="na-icon"/>
                 </a>
               </li>
               <li>
-              <a href="https://www.facebook.com/Lolade-Olatunji">
-                <FiFacebook />
-              </a>
+                <a href="https://www.facebook.com/Lolade-Olatunji">
+                  <FiFacebook className="na-icon"/>
+                </a>
               </li>
             </ul>
           </div>
-          <div className="nav-button">
+          <a href="#section-eight" className="nav-button">
             <button className="nav-but">Contact Us</button>
-          </div>
+          </a>
         </div>
       </div>
     </div>;
